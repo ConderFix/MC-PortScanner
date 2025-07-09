@@ -21,7 +21,7 @@ public class Main {
         scanner.setStartPort(Integer.parseInt(Config.getProperty("beginning-port")));
         scanner.setEndPort(Integer.parseInt(Config.getProperty("ending-port")));
 
-        // others 4837
+        // others
         scanner.setTimeout(Integer.parseInt(Config.getProperty("timeout")));
         scanner.setLogfile(logfile);
 

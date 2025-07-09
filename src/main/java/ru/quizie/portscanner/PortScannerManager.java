@@ -44,7 +44,7 @@ public class PortScannerManager {
 
             out.writeByte(0x00);
             out.writeByte(0x00);
-            out.writeByte(0x04);
+            out.writeByte(0x016);
             out.writeByte(ip.length());
             out.writeBytes(ip);
             out.writeShort(port);
